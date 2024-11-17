@@ -6,12 +6,18 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.693.0",
+    "@aws-sdk/lib-dynamodb": "^3.693.0",
+    "cors": "^2.8.5",
+    "crpyto": "^0.0.1-security",
     "express": "^4.21.1",
-    "nodemon": "^3.1.7"
+    "nodemon": "^3.1.7",
+    "serverless-http": "^3.2.0"
   }
 }
